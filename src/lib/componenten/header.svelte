@@ -88,7 +88,9 @@
 	/* Navigation */
 
 	nav {
-		padding: 10px;
+		display:flex;
+		justify-content: center;
+		padding-top: 1rem;
 	}
 
 	ul {
@@ -97,6 +99,7 @@
 		padding: 0;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	li {
