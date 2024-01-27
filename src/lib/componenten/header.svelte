@@ -27,6 +27,8 @@
 	</section>
 
 	<nav>
+		<!-- <h2>Categories</h2> -->
+
 		<ul>
 			<li><a href="#category1">Coding</a></li>
 			<li><a href="#category2">Web lessons</a></li>
@@ -36,25 +38,36 @@
 	</nav>
 </header>
 
-<body></body>
-
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&display=swap');
 
-	header {
-		background-color: antiquewhite;
+	:root {
+		/* We Love Web App: Primary Colors */
+
+		--wwBeige: #fcf4e7;
+		--wwBlue: #9fbfff;
+		--wwLightPink: #ffcdd8;
+		--wwDarkBrown: #33302b;
+		--wwBlack: rgb(0, 0, 0);
+		--wwWhite: #ffffff;
+
+		--wwPrimaryFont: 'Caprasimo', serif;
+		--wwSecondaryFont: 'Afacad', sans-serif;
 	}
 
 	h1 {
-		font-family: 'Pixelify Sans', sans-serif;
+		font-family: var(--wwPrimaryFont);
+		text-align: left;
+		margin-left: 1em;
+		color: var(--wwBlack);
 	}
 
 	/* Search bar */
 
 	.wrapper {
 		width: 100%;
-		max-width: 24rem;
-		margin-top: 1.5em;
+		max-width: 20rem;
 	}
 
 	.searchBar {
@@ -72,16 +85,17 @@
 	#searchQueryInput {
 		width: 100%;
 		height: 2.8rem;
-		background: #ffff;
-		outline: none;
-		border-color: black;
+		background: var(--wwWhite);
+		border-color: var(--wwBlack);
 		border-radius: 1.625rem;
 		padding: 0 3.5rem 0 1.5rem;
 		font-size: 1rem;
+		box-shadow: 3px 3px 1px 0 var(--wwBlack);
+		font-family: var(--wwSecondaryFont);
 	}
 
 	#searchQuerySubmit {
-		width: 3.5rem;
+		width: 4.7rem;
 		height: 2.8rem;
 		margin-left: -3.5rem;
 		background: none;
@@ -95,12 +109,6 @@
 
 	/* Navigation */
 
-	nav {
-		display: flex;
-		justify-content: center;
-		padding-top: 1rem;
-	}
-
 	ul {
 		list-style: none;
 		padding: 0;
@@ -110,25 +118,26 @@
 	}
 
 	li {
-		border: 1px #000 solid;
-		border-radius: 1.3rem;
-		/* margin-right: 20px; */
-		margin-bottom: 10px;
+		border: 2px var(--wwBlack) solid;
+		border-radius: 2rem;
+		margin: 5px;
 		flex: 1 0 calc(50% - 20px);
-		max-width: 8.5rem;
+		max-width: 9rem;
 	}
 
 	a {
 		text-decoration: none;
-		color: #000;
+		color: var(--wwBlack);
+		background-color: var(--wwWhite);
 		font-weight: bold;
 		padding: 10px 12px;
 		border-radius: 1.3rem;
 		transition: background-color 0.3s ease;
 		display: block;
+		font-family: 'Afacad', sans-serif;
 	}
 
 	a:hover {
-		background-color: #ffc4d6;
+		background-color: #FFCDD8;
 	}
 </style>
