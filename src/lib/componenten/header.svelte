@@ -1,11 +1,10 @@
 <script>
 </script>
 
-<h1>I love web</h1>
+<header>
+	<h1>I love web</h1>
 
-
-<main>
-	<section>
+	<section class="search-container">
 		<article class="wrapper">
 			<form class="searchBar">
 				<input
@@ -35,12 +34,16 @@
 			<li><a href="#category4">Abroad</a></li>
 		</ul>
 	</nav>
+</header>
 
-</main>
+<body></body>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
+	header {
+		background-color: antiquewhite;
+	}
 
 	h1 {
 		font-family: 'Pixelify Sans', sans-serif;
@@ -59,6 +62,11 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+	}
+
+	.search-container {
+		display: flex;
+		justify-content: center;
 	}
 
 	#searchQueryInput {
@@ -88,14 +96,13 @@
 	/* Navigation */
 
 	nav {
-		display:flex;
+		display: flex;
 		justify-content: center;
 		padding-top: 1rem;
 	}
 
 	ul {
 		list-style: none;
-		/* margin: 0; */
 		padding: 0;
 		display: flex;
 		flex-wrap: wrap;
@@ -109,20 +116,19 @@
 		margin-bottom: 10px;
 		flex: 1 0 calc(50% - 20px);
 		max-width: 8.5rem;
-
 	}
 
 	a {
 		text-decoration: none;
 		color: #000;
 		font-weight: bold;
-		padding: 8px 12px;
+		padding: 10px 12px;
 		border-radius: 1.3rem;
 		transition: background-color 0.3s ease;
 		display: block;
 	}
 
 	a:hover {
-		background-color: #FFC4D6;
+		background-color: #ffc4d6;
 	}
 </style>
