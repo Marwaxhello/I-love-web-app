@@ -6,25 +6,25 @@
 
 	<section class="scroll-container">
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Accessibility" />
+			<img src="hand.jpeg" alt="Accessibility" />
 			<div class="overlay">
 				<p>Accessibility</p>
 			</div>
 		</article>
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Freelance" />
+			<img src="laying.jpeg" alt="Freelance" />
 			<div class="overlay">
 				<p>Freelance</p>
 			</div>
 		</article>
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Nl Design System" />
+			<img src="creative.jpeg" alt="Nl Design System" />
 			<div class="overlay">
 				<p>Nl Design System</p>
 			</div>
 		</article>
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Scrum Crash Course" />
+			<img src="zzp.jpeg" alt="Scrum Crash Course" />
 			<div class="overlay">
 				<p>Scrum Crash Course</p>
 			</div>
@@ -58,6 +58,7 @@
 		/* We Love Web App: Primary Colors */
 
 		--wwBeige: #fcf4e7;
+		--wwPinkBeige: #fbf4f1;
 		--wwBlue: #9fbfff;
 		--wwLightPink: #ffcdd8;
 		--wwDarkBrown: #33302b;

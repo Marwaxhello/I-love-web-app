@@ -46,8 +46,9 @@
 		/* We Love Web App: Primary Colors */
 
 		--wwBeige: #fcf4e7;
+		--wwPinkBeige: #fbf4f1;
 		--wwBlue: #9fbfff;
-		--wwLightPink: #ffcdd8;
+		--wwLightPink: #ffe4ed;
 		--wwDarkBrown: #33302b;
 		--wwBlack: rgb(0, 0, 0);
 		--wwWhite: #ffffff;
@@ -128,8 +129,7 @@
 	a {
 		text-decoration: none;
 		color: var(--wwBlack);
-		background-color: var(--wwWhite);
-		font-weight: bold;
+		background-color: #ffe4ed;
 		padding: 10px 12px;
 		border-radius: 1.3rem;
 		transition: background-color 0.3s ease;
@@ -138,6 +138,6 @@
 	}
 
 	a:hover {
-		background-color: #FFCDD8;
+		background-color: #ffcdd8;
 	}
 </style>

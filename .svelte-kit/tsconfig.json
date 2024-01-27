@@ -17,8 +17,8 @@
 		"lib": [
 			"esnext",
 			"DOM",
-			"DOM.Iterable"
-		],
+			"DOM.Iterable"],
+
 		"moduleResolution": "bundler",
 		"module": "esnext",
 		"noEmit": true,
