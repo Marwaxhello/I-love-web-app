@@ -2,7 +2,7 @@
 </script>
 
 <header>
-	<h1>I love web</h1>
+	<h1>I Love Web</h1>
 
 	<section class="search-container">
 		<article class="wrapper">

@@ -31,29 +31,19 @@
 		</article>
 	</section>
 
+	<p>CSS Challange workshop</p>
+
 	<section class="scroll-container">
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Accessibility" />
+			<img src="Team Illustration.jpeg" alt="States of buttons, links etc" />
 			<div class="overlay">
-				<p>Accessibility</p>
+				<p>States</p>
 			</div>
 		</article>
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Freelance" />
+			<img src="Team Illustration.jpeg" alt="Emoji animation" />
 			<div class="overlay">
-				<p>Freelance</p>
-			</div>
-		</article>
-		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Nl Design System" />
-			<div class="overlay">
-				<p>Nl Design System</p>
-			</div>
-		</article>
-		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Scrum Crash Course" />
-			<div class="overlay">
-				<p>Scrum Crash Course</p>
+				<p>Emoji Animation</p>
 			</div>
 		</article>
 	</section>
