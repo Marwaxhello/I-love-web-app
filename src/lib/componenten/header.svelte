@@ -14,7 +14,7 @@
 					placeholder="Search anything"
 					value=""
 				/>
-				<button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+				<button id="searchQuerySubmit" type="submit" name="searchQuerySubmit" aria-label="Search">
 					<svg style="width:24px;height:24px" viewBox="0 0 24 24"
 						><path
 							fill="#fffff"
@@ -129,7 +129,7 @@
 	a {
 		text-decoration: none;
 		color: var(--wwBlack);
-		background-color: #ffe4ed;
+		background-color: var(--wwWhite);
 		padding: 10px 12px;
 		border-radius: 1.3rem;
 		transition: background-color 0.3s ease;

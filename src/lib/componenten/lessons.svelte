@@ -6,28 +6,28 @@
 
 	<section class="scroll-container">
 		<article class="image-container">
-			<img src="hand.jpeg" alt="Accessibility" />
-			<div class="overlay">
+			<img src="hand.jpeg" alt="Accessibility" loading="lazy" />
+			<aside class="overlay">
 				<p>Accessibility</p>
-			</div>
+			</aside>
 		</article>
 		<article class="image-container">
-			<img src="laying.jpeg" alt="Freelance" />
-			<div class="overlay">
+			<img src="laying.jpeg" alt="Freelance" loading="lazy" />
+			<aside class="overlay">
 				<p>Freelance</p>
-			</div>
+			</aside>
 		</article>
 		<article class="image-container">
-			<img src="creative.jpeg" alt="Nl Design System" />
-			<div class="overlay">
+			<img src="creative.jpeg" alt="Nl Design System" loading="lazy" />
+			<aside class="overlay">
 				<p>Nl Design System</p>
-			</div>
+			</aside>
 		</article>
 		<article class="image-container">
-			<img src="zzp.jpeg" alt="Scrum Crash Course" />
-			<div class="overlay">
+			<img src="zzp.jpeg" alt="Scrum Crash Course" loading="lazy" />
+			<aside class="overlay">
 				<p>Scrum Crash Course</p>
-			</div>
+			</aside>
 		</article>
 	</section>
 
@@ -35,23 +35,22 @@
 
 	<section class="scroll-container">
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="States of buttons, links etc" />
-			<div class="overlay">
+			<img src="Team Illustration.jpeg" alt="States of buttons, links etc" loading="lazy" />
+			<aside class="overlay">
 				<p>States</p>
-			</div>
+			</aside>
 		</article>
 		<article class="image-container">
-			<img src="Team Illustration.jpeg" alt="Emoji animation" />
-			<div class="overlay">
+			<img src="Team Illustration.jpeg" alt="Emoji animation" loading="lazy" />
+			<aside class="overlay">
 				<p>Emoji Animation</p>
-			</div>
+			</aside>
 		</article>
 	</section>
 </main>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@500&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Hanuman&display=swap');
 
 	:root {
@@ -133,4 +132,6 @@
 	.overlay p {
 		margin: 0;
 	}
+
+	
 </style>
