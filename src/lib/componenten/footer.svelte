@@ -1,6 +1,4 @@
-<footer>
-
-</footer>
+<footer></footer>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
@@ -22,8 +20,7 @@
 		--wwTertairyFont: 'Hanuman', serif;
 	}
 
-
-footer{
-    margin-top: 3em;
-}
+	footer {
+		margin-top: 3em;
+	}
 </style>
